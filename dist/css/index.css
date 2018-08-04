@@ -1,0 +1,91 @@
+body {
+  font: 14px/1.5 "Verdana", "微软雅黑", YaHei, tahoma, arial, Hiragino Sans GB, "宋体";
+}
+/* 媒体查询 */
+/* --------------------------定义的变量,公共类------------------------------------- */
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.left_titel {
+  color: #2e8ece;
+  font-weight: bold;
+  border-bottom: 2px solid #2e8ece;
+  margin-bottom: 0;
+}
+.a_position {
+  margin-top: 30px;
+  cursor: pointer;
+}
+/* 头部部分 */
+header .navbar {
+  margin-bottom: 0;
+}
+header .navbar .navbar-nav:first-of-type li a:hover {
+  color: #fff;
+}
+header .navbar .navbar-nav:first-of-type li a span {
+  font-size: 18px;
+}
+header .navbar .navbar-nav:first-of-type li a i {
+  font-size: 24px;
+}
+header .navbar .navbar-nav li a {
+  color: #fff;
+}
+header .navbar .navbar-nav li a:hover {
+  color: deepskyblue;
+}
+/* 导航栏 */
+#index_nav {
+  margin-bottom: 10px;
+  height: 100%;
+}
+#index_nav .container {
+  margin-bottom: 0;
+}
+#index_nav .container .index_menu {
+  margin-left: 20px;
+  width: 100%;
+}
+#index_nav .container .index_menu li a {
+  display: inline-block;
+  font-size: 16px;
+  padding: 30px 20px;
+}
+#index_nav .container .index_menu li a:hover {
+  color: deepskyblue;
+  background: #f0f0f0;
+}
+/* 理财部分样式 */
+#index_manage {
+  margin-top: 20px;
+}
+#index_manage div:nth-of-type(1) {
+  padding-top: 10px;
+}
+#index_manage div:nth-of-type(2) {
+  padding-left: 40px;
+}
+/* 借款进行中 */
+.index_credit .page-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.index_credit .page-header h3 {
+  color: #2e8ece;
+  font-weight: bold;
+  border-bottom: 2px solid #2e8ece;
+  margin-bottom: 0;
+}
+.index_credit .page-header a {
+  margin-top: 30px;
+  cursor: pointer;
+}
+.index_credit .panel {
+  margin-top: 0;
+}

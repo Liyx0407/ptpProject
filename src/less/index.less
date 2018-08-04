@@ -1,0 +1,117 @@
+body {
+    font: 14px/1.5 "Verdana", "微软雅黑", YaHei, tahoma, arial, Hiragino Sans GB,
+ "宋体";
+}
+/* 媒体查询 */
+
+/* --------------------------定义的变量,公共类------------------------------------- */
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.left_titel{
+    color: #2e8ece;
+    font-weight: bold;
+    border-bottom: 2px solid  #2e8ece;
+    margin-bottom:0;
+}
+
+.a_position{
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* 头部部分 */
+
+header{
+    .navbar{
+        margin-bottom: 0;
+        .navbar-nav{
+            &:first-of-type{
+                li{
+                    a{
+                        &:hover{
+                            color: #fff;
+                        }
+                        span{
+                            font-size: 18px;
+                        }
+                        i{
+                            font-size: 24px;
+                        }
+                    }
+
+                }
+            }
+            li{
+                a{
+                    color: #fff;
+                    &:hover{
+                        color: deepskyblue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* 导航栏 */
+#index_nav{
+    margin-bottom: 10px;height: 100%;
+    .container{
+        margin-bottom: 0;
+       .index_menu{
+           margin-left: 20px;
+           width: 100%;
+           li{
+                a{
+                   display: inline-block;
+                   font-size: 16px;
+                   padding: 30px 20px;
+                   &:hover{
+                       color: deepskyblue;
+                       background: #f0f0f0;
+                                          
+                   }
+                 
+                   
+               }
+           }        
+
+        }      
+
+    }
+}
+
+/* 理财部分样式 */
+
+#index_manage{
+    margin-top: 20px;
+    div{
+        &:nth-of-type(1){
+            padding-top: 10px;
+        }
+       &:nth-of-type(2){
+           padding-left: 40px;
+       }
+    }
+}
+
+
+
+/* 借款进行中 */
+.index_credit{
+   .page-header{
+        .header_content;
+        h3{.left_titel}
+        a{.a_position}
+    }
+
+    .panel{
+        margin-top: 0;
+    }
+}
